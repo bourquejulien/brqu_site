@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Julien Bourque</title>
+    <meta name="theme-color" content="#2d2d2d" />
+    <link rel="icon" type="image/png" href="Images/fav.png" />
+    <link rel="stylesheet" type="text/css" href="indexStyle.css" />
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <section class="introSection">
+      <h1 class="authorName">Julien Bourque</h1>
+    </section>
+    <section class="contactSection">
+      <h2 class="formMessage">Pour me rejoindre</h2>
+      <form
+        name="contact form"
+        method="POST"
+        data-netlify="true"
+        class="simple-form"
+      >
+        <div class="sameLineElem">
+          <input type="text" name="name" placeholder="Nom" required />
+        </div>
+        <div class="sameLineElem">
+          <input type="email" name="email" placeholder="Courriel" required />
+        </div>
+        <div style="padding-top: 20px;">
+          <label> Message : </label>
+          <div><textarea name="message" ></textarea></div>
+        </div>
+        <p>
+          <button class="sendButton" type="submit">Envoyer</button>
+        </p>
+      </form>
+    </section>
+    <script></script>
+  </body>
+</html>
